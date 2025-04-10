@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 2</title>
+</head>
+<body>
+    <h3>Não é associado? Faça o seu cadastro</h3>
+    <form action="">
+        Nome
+        <input type="text" name="Nome"> <br>
+
+        Sobrenome
+        <input type="text" name="Sobrenome"> <br>
+
+        CPF
+        <input type="number" id="CPF" name="CPF" maxlength="11" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" placeholder="000.000.000-00" required> <br>
+
+        E-mail
+        <input type="text" name="E-mail"> <br>
+
+        WebSite
+        <input type="text" name="WebSite"><br>
+
+        Endereço
+        <input type="text" name="Endereço"><br>
+
+        Bairro
+        <input type="text" name="Bairro">
+
+        Cidade
+        <input type="text" name="Cidade"><br>
+
+        CEP
+        <input type="number" name="CEP">
+
+        UF
+        <select name="estados" size="1">
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+            <option value="EX">Estrangeiro</option>
+        </select><br>
+
+        Telefone
+        <input type="number" name="Telefone" placeholder="(12) 34567-8910">
+
+        Fax
+        <input type="text" name="Fax"><br>
+
+        Data de Nascimento
+        <input type="data" name="Data de Nascimento" placeholder="07/11/2005">
+
+        Sexo
+        <input type="radio" name="1" value="Masculino">M
+        <input type="radio" name="1" value="feminino">F
+        <br>
+
+        Celular
+        <input type="text" name="celular">
+
+        Estado Civil
+        <select name="estado civil" size="1">
+            <option value="casado">Casado/a</option>
+            <option value="solteiro">Solteiro/a</option>
+            <option value="viúvo">Viúvo/a</option>
+            <option value="separado">Separado/a</option>
+            <option value="noivo">Noivo/a</option>
+        </select><br>
+
+        Login
+        <input type="text" name="Login">
+
+        Senha
+        <input type="text" name="Senha"><br>
+
+        <p>Deseja receber informações sobre os seguintes assuntos abaixo:</p>
+
+        <input type="radio" name="Tecnologia" multiple>Tecnologia
+        <input type="radio" name="Esportes" multiple> Esportes
+        <input type="radio" name="Automóveis" multiple>Automóveis
+        <input type="radio" name="Culinária" multiple>Culinária
+        <input type="radio" name="Política" multiple>Política
+        <input type="radio" name="Policial" multiple>Policial <br>
+        <input type="radio" name="Tempo" multiple>Tempo
+        <input type="radio" name="Cultura" multiple>Cultura
+        <input type="radio" name="Economia" multiple>Economia
+        <input type="radio" name="Jogos" multiple>Jogos
+        <input type="radio" name="Educação" multiple>Educação
+        <input type="radio" name="Viagens" multiple>Viagens
+        <input type="radio" name="Empregos" multiple>Empregos
+        <input type="radio" name="Moda e estilo" multiple>Moda e estilo <br>
+
+        <input type="radio" name="Termos">Li as regras de cadastro e autorizo a criação do usuário <br>
+
+        <input type="submit" value="Submit" name="B1">
+        <input type="reset" value="Reset" name="B2">
+    </form>
+</body>
+</html>

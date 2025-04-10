@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+         p {
+ text-indent: 70px;
+ }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trabalho de infraestrutura</title>
+</head>
+<body>
+    <h2>Sistema de gestão acadêmica</h2>
+    <h1><b>Manutenção de usuários do Sistema Interno</b></h1>
+    <form action="/action_page.php">
+
+        <label for="Login">Login</label>
+            <input type="text" name="Login"> <br><br>
+
+        Senha
+        <input type="text" name="Senha"> <br><br>
+        Status
+        <select name="Status" size="1">
+            <option Selected>Ativo</option>
+            <option Selected>Inativo</option>
+        </select><br><br>
+
+        Tipo
+        <input type="radio"value="opc1" checked name="tipo">Técnico
+        <input type="radio" value = "opc2" name="tipo">Professor
+        <input type="radio" value = "opc3" name="tipo">Aluno
+<br><br>
+        Data Criação
+        <input type="datetime"></input>
+<br><br>
+        Perfil
+        <input type="radio"value="opc4" checked name="tipo1">Convidado
+        <input type="radio" value = "opc5" name="tipo1">Administrador
+<br><br>
+        Observações
+        <textarea rows="3" cols="50">Área para texto</textarea>
+<br><br>
+        Módulos
+        <form method="Post">
+            <input type="checkbox" name="C1" value=“1">Compras
+            <input type="checkbox" name="C2" value="2">Biblioteca
+            <input type="checkbox" name="C3" value="3">Acadêmico
+            <p><input type="checkbox" name="C4" value="4">Documentação
+            <input type="checkbox" name="C5" value="5">Recursos humanos</p>
+        <br>
+        <input type="submit" value="Submit" name="B1">
+        <input type="reset" value="Reset" name="B2">
+    </form>
+</body>
+</html>
